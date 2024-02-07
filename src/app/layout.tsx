@@ -8,15 +8,15 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Teslo | SHOP',
-  description: 'Una tienda virtual de productos',
+  title: 'Temacheros',
+  description: 'Proyecto de la comunidad temach',
 }
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang='en'>
+    <html lang='es'>
       <body className={inter.className}>{children}</body>
     </html>
   )
