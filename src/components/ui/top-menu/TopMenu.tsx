@@ -19,7 +19,7 @@ export const TopMenu = () => {
 
   return (
     <div>
-      <div className='flex justify-between py-6 '>
+      <div className='flex justify-between pt-6 '>
         <div>
           <Link href='/'>
             <Image
@@ -48,7 +48,7 @@ export const TopMenu = () => {
           </nav>
         )}
 
-        <div className='flex gap-2'>
+        <div className='flex gap-2 '>
           <Image
             src={'/assets/images/mammoth.webp'}
             alt='Cabeza de mamut'
@@ -56,7 +56,7 @@ export const TopMenu = () => {
             height={50}
           />
           {/* Every time the user presses the button, the state changes. */}
-          <button onClick={() => setIsOpenMenu(true)}>
+          <button onClick={() => setIsOpenMenu(true)} className='md:hidden'>
             <IconMenu2 size={40} />
           </button>
         </div>

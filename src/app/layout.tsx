@@ -1,4 +1,4 @@
-import { TopMenu } from '@/components'
+import { Footer, TopMenu } from '@/components'
 import './globals.css'
 import { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -23,6 +23,7 @@ export default function RootLayout({
       >
         <TopMenu />
         {children}
+        <Footer />
       </body>
     </html>
   )
