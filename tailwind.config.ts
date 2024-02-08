@@ -17,6 +17,9 @@ const config: Config = {
         'color-bg-button-2': '#5D5D5D',
         'color-text-advertisement': '#888888',
       },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [],
