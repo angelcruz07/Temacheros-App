@@ -36,14 +36,14 @@ export const TopMenu = () => {
 						<Link href={'/'}>
 							<span>Inicio</span>
 						</Link>
-						<Link href={'/faq'}>
-							<span>Registros de la tribu</span>
-						</Link>
-						<Link href={'/search'}>
-							<span>Adentrarse en las visiones del brujo</span>
-						</Link>
 						<Link href={'/directory'}>
-							<span>Silbaros de Guerra</span>
+							<span>Comunidad</span>
+						</Link>
+						<Link href={'/sources'}>
+							<span>Recursos</span>
+						</Link>
+						<Link href={'/faq'}>
+							<span>Preguntas frecuentes</span>
 						</Link>
 						<Link href={'/mammoth'}>
 							<span>Cabezas de mamut</span>
@@ -81,14 +81,14 @@ export const TopMenu = () => {
 				<Link href={'/'}>
 					<span>Inicio</span>
 				</Link>
+				<Link href={'/community'}>
+					<span>Comunidad</span>
+				</Link>
+				<Link href={'/sources'}>
+					<span>Recursos</span>
+				</Link>
 				<Link href={'/faq'}>
-					<span>Registros de la tribu</span>
-				</Link>
-				<Link href={'/search'}>
-					<span>Adentrarse en las visiones del brujo</span>
-				</Link>
-				<Link href={'/directory'}>
-					<span>Silbaros de Guerra</span>
+					<span>Preguntas frecuentes</span>
 				</Link>
 				<Link href={'/mammoth'}>
 					<span>Cabezas de mamut</span>

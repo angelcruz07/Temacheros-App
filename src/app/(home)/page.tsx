@@ -18,7 +18,7 @@ export default function page() {
 						<span className='text-color-mayus font-bold'>"El Temach"</span>
 					</h2>
 				</picture>
-				<div className='md:max-w-2/5'>
+				<div className='md:max-w-2/5 mt-20'>
 					<p className='text-lg font-bold md:text-2xl text-center'>
 						Sumergete en el contenido del
 						<span className='text-color-mayus'> Temach©</span>, enfocado al

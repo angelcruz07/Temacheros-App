@@ -1,7 +1,7 @@
 export const buttonsData = [
 	{
 		id: 1,
-		url: '/',
+		url: '/start',
 		text: 'Comenzar'
 	},
 	{
@@ -11,12 +11,17 @@ export const buttonsData = [
 	},
 	{
 		id: 3,
+		url: '/sources',
+		text: 'Recursos'
+	},
+	{
+		id: 4,
 		url: '/mammoth',
 		text: 'Cabezas de mamut'
 	},
 	{
-		id: 4,
-		url: '/',
-		text: 'Registros de la tribu'
+		id: 5,
+		url: '/faq',
+		text: 'Preguntas frecuentes'
 	}
 ]
