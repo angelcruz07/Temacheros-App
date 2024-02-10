@@ -1,3 +1,7 @@
 export default function Faq() {
-  return <div></div>
+	return (
+		<section>
+			<h1 className='text-3xl font-bold'>Preguntas frecuentes</h1>
+		</section>
+	)
 }
