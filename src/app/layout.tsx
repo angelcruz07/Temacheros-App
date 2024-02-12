@@ -1,6 +1,8 @@
+import { Footer, TopMenu } from '@/components'
 import './globals.css'
 import { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Head from 'next/head'
 
 const inter = Inter({
 	weight: ['100', '200', '500', '700', '900'],
@@ -8,8 +10,10 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-	title: 'Temacheros',
-	description: 'Proyecto de la comunidad temach'
+	title: 'The WarMode - Comunidad del Temach',
+	description:
+		'¡Explora nuestro sitio web ahora y comienza tu viaje hacia el conocimiento y el éxito junto a "El Temach" y su vibrante comunidad!',
+	icons: '/assets/images/logo.webp'
 }
 
 export default function RootLayout({
@@ -18,8 +22,10 @@ export default function RootLayout({
 	return (
 		<html lang='es'>
 			<body
-				className={`${inter.className} bg-black-fallback bg-gradient-custom min-h-screen text-white`}>
+				className={`${inter.className} bg-gradient-to-br from-bg-deg  from-45% to-bg-deg-2 min-h-screen text-white container px-4`}>
+				<TopMenu />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	)

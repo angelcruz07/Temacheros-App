@@ -1,3 +1,7 @@
 export * from './ui/mamuts/card/CardMammoth'
 export * from './ui/footer/Footer'
 export * from './ui/navbarHome/button/Button'
+export * from './ui/top-menu/TopMenu'
+export * from './ui/mamuts/badges/BadgeDate'
+export * from './ui/mamuts/buttons/ButtonSeMore'
+export * from './ui/mamuts/badges/BadgeCategory'

@@ -1,3 +1,5 @@
 export * from './faq/faq.interface'
 export * from './navbarHome/button.interface'
 export * from './mammoth/carMammouth.interface'
+export * from './mammoth/buttonSeMore.interface'
+export * from './mammoth/badgeCategory.interface'
