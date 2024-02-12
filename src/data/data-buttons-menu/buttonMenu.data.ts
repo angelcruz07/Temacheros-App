@@ -6,7 +6,7 @@ export const buttonsData = [
 	},
 	{
 		id: 2,
-		url: '/',
+		url: '/community',
 		text: 'Comunidad'
 	},
 	{

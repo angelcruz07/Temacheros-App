@@ -36,7 +36,7 @@ export const TopMenu = () => {
 						<Link href={'/'}>
 							<span>Inicio</span>
 						</Link>
-						<Link href={'/directory'}>
+						<Link href={'/community'}>
 							<span>Comunidad</span>
 						</Link>
 						<Link href={'/sources'}>
