@@ -59,12 +59,13 @@ npm run dev
 
 4. Open [**http://localhost:4321**](http://localhost:4321/) with your browser to see the result 🚀
 
-### 🤝 Contributing
-
 Check the **CONTRIBUTING.md** file to contribute
 
-<!-- ### 🤝 Contributing
+### 🤝 Contributing
 
-<a href="https://github.com/arrif-dev/temacheros/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=arrif-dev/temacheros" />
-</a> -->
+<a href="https://github.com/CodeVerseInc/The-War-Mode/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CodeVerseInc/The-War-Mode" />
+</a>
+
+<!--
+Made with [contrib.rocks](https://contrib.rocks). -->
