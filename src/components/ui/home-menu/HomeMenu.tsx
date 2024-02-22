@@ -19,25 +19,25 @@ export const HomeMenu = () => {
 				Comenzar
 			</Link>
 			<Link
-				href='/start'
+				href='/resources'
 				className='bg-color-bg-component p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
 				<IconFolderOpen />
 				Recursos
 			</Link>
 			<Link
-				href='/start'
+				href='/community'
 				className='bg-color-bg-component p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
 				<IconUsers />
 				Comunidad
 			</Link>
 			<Link
-				href='/start'
+				href='/mammoth'
 				className='bg-color-bg-component p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
 				<IconNorthStar />
 				Cabezas de mammut
 			</Link>
 			<Link
-				href='/start'
+				href='/faq'
 				className='bg-color-bg-component p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
 				<IconHelpHexagon />
 				Preguntas frecuentes
