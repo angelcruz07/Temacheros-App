@@ -20,13 +20,15 @@ export default function RootLayout({
 	children
 }: Readonly<{ children: React.ReactNode }>) {
 	return (
-		<html lang='es'>
-			<body
-				className={`${inter.className} bg-gradient-to-l from-black via-stone-900 to-black min-h-screen text-white container px-4`}>
-				<TopMenu />
-				{children}
-				<Footer />
-			</body>
-		</html>
+		<>
+			<html lang='es'>
+				<body
+					className={`${inter.className} bg-gradient-to-l from-black via-stone-900 to-black min-h-screen text-white container px-4`}>
+					<TopMenu />
+					{children}
+					<Footer />
+				</body>
+			</html>
+		</>
 	)
 }
