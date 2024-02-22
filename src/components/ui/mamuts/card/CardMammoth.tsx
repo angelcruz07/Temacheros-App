@@ -10,7 +10,7 @@ export const CardMammoth = ({
 	url
 }: MammothCard) => {
 	return (
-		<div className='w-96 h-64 border bg-black/10 p-8 rounded-lg shadowborder-gray-700'>
+		<div className='w-96 h-64 border bg-gradient-to-r from-neutral-800 to-neutral-800 p-8 rounded-lg shadowborder-gray-700'>
 			<div className='flex gap-x-5 items-center justify-between mb-5 '>
 				<picture>
 					<img
