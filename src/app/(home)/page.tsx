@@ -1,5 +1,4 @@
-import { Button } from '@/components'
-import { buttonsData } from '@/data'
+import { HomeMenu } from '@/components'
 
 export default function page() {
 	return (
@@ -24,11 +23,7 @@ export default function page() {
 						<span className='text-color-mayus'> Temach©</span>, enfocado al
 						estudio y superación personal.
 					</p>
-					<div className='flex justify-center flex-col gap-y-3 items-center mt-4'>
-						{buttonsData.map((button) => (
-							<Button key={button.text} url={button.url} text={button.text} />
-						))}
-					</div>
+					<HomeMenu />
 				</div>
 			</article>
 		</section>
