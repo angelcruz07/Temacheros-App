@@ -22,7 +22,7 @@ export const CardMammoth = ({
 				<div className='flex flex-col gap-y-0'>
 					<h5 className='text-xl text-white'>{name}</h5>
 					<p className='text-sm '>
-						🇲🇽{country} - {age} años
+						{country} - {age} años
 					</p>
 				</div>
 			</div>
