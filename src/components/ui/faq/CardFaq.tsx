@@ -23,7 +23,7 @@ export const CardFaq = ({ question, response }: Faq) => {
 			</div>
 			{/* If showQuestion is not equal to false, then display the question; otherwise, do not display it */}
 			<div
-				className={`text-base max-w-96 transition-all duration-300 ${
+				className={`text-base font-light max-w-96 transition-all duration-300 ${
 					showQuestion ? 'opacity-100' : 'opacity-0'
 				}`}>
 				{showQuestion && <p className=''>{response}</p>}
