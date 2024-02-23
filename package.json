@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/rubik-dirt": "^5.0.18",
     "@tabler/icons-react": "^2.47.0",
     "next": "14.1.0",
     "react": "^18",

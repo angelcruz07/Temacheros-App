@@ -14,31 +14,31 @@ export const HomeMenu = () => {
 			{/* ? links to navbar */}
 			<Link
 				href='/start'
-				className='bg-color-bg-component p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
+				className='bg-gradient-to-r from-neutral-600 to-neutral-900 p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
 				<IconHome />
 				Comenzar
 			</Link>
 			<Link
-				href='/start'
-				className='bg-color-bg-component p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
+				href='/resources'
+				className='bg-gradient-to-r from-neutral-600 to-neutral-900 p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
 				<IconFolderOpen />
 				Recursos
 			</Link>
 			<Link
-				href='/start'
-				className='bg-color-bg-component p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
+				href='/community'
+				className='bg-gradient-to-r from-neutral-600 to-neutral-900 p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
 				<IconUsers />
 				Comunidad
 			</Link>
 			<Link
-				href='/start'
-				className='bg-color-bg-component p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
+				href='/mammoth'
+				className='bg-gradient-to-r from-neutral-600 to-neutral-900 p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
 				<IconNorthStar />
 				Cabezas de mammut
 			</Link>
 			<Link
-				href='/start'
-				className='bg-color-bg-component p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
+				href='/faq'
+				className='bg-gradient-to-r from-neutral-600 to-neutral-900 p-3 rounded-lg w-80 md:w-96 text-center cursor-pointer flex items-center justify-center'>
 				<IconHelpHexagon />
 				Preguntas frecuentes
 			</Link>

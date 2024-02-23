@@ -4,7 +4,7 @@ export const BadgeDate = () => {
 			<picture>
 				<img src='/assets/icons/Date.svg' alt='Icon data' />
 			</picture>
-			<span className='mt-1'>20/03/23</span>
+			<span className='mt-1 font-regular'>20/03/23</span>
 		</div>
 	)
 }
